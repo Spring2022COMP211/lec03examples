@@ -76,4 +76,14 @@ int main() {
     printf("Bit pattern of y: %x\n", y);
     printf("Bit pattern of z: %x\n", z);
 
+    // Characters are just 8-bit integer values
+    // with ASCII mapping
+    
+    char c1 = 'a';
+    char c2 = 'b';
+    int8_t c3 = 67;
+
+    printf("c1 as ASCII: %c, c1 as integer: %d\n", c1, c1);
+    printf("c2 as ASCII: %c, c2 as integer: %d\n", c2, c2);
+    printf("c3 as ASCII: %c, c3 as integer: %d\n", c3, c3);
 }
